@@ -20,7 +20,7 @@
   </script>
   <div id="content">
     <div id="head">
-      <p>$167 needed for this project</p>
+      <p>$<span id="donationLeft">1000</span> needed for this project</p>
     </div>
     <div class="triangle"></div>
     <div id="body">
@@ -34,19 +34,19 @@
         <br>
         <br>
         <br>
-        Join the <b> 42 </b> other donors who have already supported this project.Every Dollar helps.
+        Join the<b> <span id ="count">0</span> </b> other donors who have already supported this project.Every Dollar helps.
         </p>
         </p>
       </div>
       <div id="body-donation">
-        <input type="text" id="input" value="$50" />
+        <b style="margin-right:10px; color:#585858">$</b><input type="number" id="input" value="50" style="padding-left:10px" />
         <button type="button" id="body-button" onclick="giveNow()">Give Now</button>
       </div>
       <p style="font-size:20px; color:blue; margin:15px 0px 0px 30px; font-style:italic">Why give $50?</p>
     </div>
     <div id="footer">
       <button type="button" class="footer-button" onclick="saveForLater()">Save For Later</button>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" data-show-count="false" target="_blank" style="color:#595858;">
+      <a href="https://www.facebook.com/sharer/sharer.php?&u=example.org" data-show-count="false" target="_blank" style="color:#595858;">
       <button type="button" class="footer-button" style="margin:35px">Tell Your Friends</button>
     </div>
   </div>
