@@ -32,7 +32,7 @@
 
 #body{
   border: solid 1px #A9A9A9;
-  height: 350px;
+  height: 400px;
   width:400px;
   margin: 5px 50px 0px 50px;
   box-shadow: 1px 5px #f7f7f7;
@@ -57,7 +57,7 @@
 }
 
 #footer{
-  margin:0px 50px 50px 50px;
+  margin:20px 50px 50px 50px;
   width: 440px;
 }
 
